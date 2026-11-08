@@ -1,0 +1,21 @@
+# LaTeX の中間ファイル
+*.aux
+*.dvi
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.out
+*.nav
+*.snm
+
+# macOS
+.DS_Store
+/.DS_Store
+
+reports/interim-report.pdf

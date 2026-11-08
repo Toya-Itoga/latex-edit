@@ -1,0 +1,25 @@
+{
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (platex)",
+      "tools": ["latexmk"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": ["-silent", "%DOC%"],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.outDir": "./docs",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.dvi", "*.log", "*.fls", "*.fdb_latexmk",
+    "*.toc", "*.bbl", "*.blg", "*.out", "*.synctex.gz"
+  ],
+  "latex-workshop.message.warning.show": false
+}
